@@ -1,0 +1,30 @@
+Turn your Raspberry Pi into a home surveillance camera
+Pre-requisites:
+	- Pi with Raspbian installed
+	- USB Camera
+	
+
+Files:
+	motion.conf - motion configuration file
+	notify.cfg	- configuration file for notify.py
+	notify.py	- python script that connects to Google account in order to upload to Google Docs and send notification emails
+	setup.sh	- script to automate the setup of motion and configuration to utilize Google account
+				
+	
+1. Download files
+2. extract files
+3. run following command
+	sudo ./setup.sh
+
+4. follow instructions to setup
+
+
+Note:
+Streaming will be available http://<ip_address>:7780 
+	- I recommend viewing stream in VLC
+	
+	
+
+
+
+
