@@ -127,7 +127,7 @@ class MotionUploader:
 
 if __name__ == '__main__':         
     try:
-	usage = 'Motion Uploader - sends email notification, uploads videos and images to Google Drive\n   Modified by Shaun Amarelo 2014  --- Originally by Jeremy Blythe (http://jeremyblythe.blogspot.com)\n\n   Usage: uploader.py {motion|video|image} {config-file-path} {video-file-path}'
+	usage = 'Motion Uploader - sends email notification, uploads videos and images to Google Drive\n   Modified by Shaun Amarelo 2014  --- Originally by Jeremy Blythe (http://jeremyblythe.blogspot.com)\n\n   Usage: notify.py {motion|video|image} {config-file-path} {video-file-path}'
        	if len(sys.argv) < 3:
 		# Shaun Modified
         	exit(usage)
