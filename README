@@ -12,6 +12,8 @@ Files:
 				
 	
 1. Download files
+	wget https://github.com/samarelo/piMotion/archive/master.zip
+	
 2. extract files
 3. run following command
 	sudo ./setup.sh
